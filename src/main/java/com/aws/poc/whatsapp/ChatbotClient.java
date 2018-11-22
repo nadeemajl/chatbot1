@@ -1,6 +1,6 @@
-package com.aws.poc.whatsapp.chatbot1;
+package com.aws.poc.whatsapp;
 
-import com.aws.poc.whatsapp.chatbot1.model.User;
+import com.aws.poc.whatsapp.model.User;
 
 public class ChatbotClient {
     public static String sendMessage(User expert, String askExpertAvailability) {

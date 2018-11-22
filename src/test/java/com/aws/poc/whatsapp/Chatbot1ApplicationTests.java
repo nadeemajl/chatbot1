@@ -1,4 +1,4 @@
-package com.aws.poc.whatsapp.chatbot1;
+package com.aws.poc.whatsapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

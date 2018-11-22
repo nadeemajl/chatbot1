@@ -1,12 +1,13 @@
-package com.aws.poc.whatsapp.chatbot1.model;
+package com.aws.poc.whatsapp.model;
 
 import java.time.LocalDateTime;
 
-public class Meeting {
+public class Meeting implements ScheduleItem{
     private User user;
     private User expert;
     private LocalDateTime startTime;
     private MeetingPoint meetingPoint;
+    private String id;
 
     public String getId() {
         return id;
@@ -16,7 +17,6 @@ public class Meeting {
         this.id = id;
     }
 
-    private String id;
 
     public User getUser() {
         return user;
@@ -67,6 +67,8 @@ public class Meeting {
         this.meetingPoint = meetingPoint;
         this.state = state;
     }
+
+
 
 
 }

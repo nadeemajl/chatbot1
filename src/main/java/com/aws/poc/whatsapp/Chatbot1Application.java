@@ -1,4 +1,4 @@
-package com.aws.poc.whatsapp.chatbot1;
+package com.aws.poc.whatsapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
